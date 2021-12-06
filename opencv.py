@@ -1,8 +1,8 @@
 import cv2
 from skimage.measure import compare_ssim
 
-imageA = cv2.imread('C:\coding\python_project\image_comparison\1_HR_95.png')
-imageB = cv2.imread('C:\coding\python_project\image_comparison\1_HR_96.png')
+imageA = cv2.imread('C:/coding/python_project/image_comparison/1_HR_95.png')
+imageB = cv2.imread('C:/coding/python_project/image_comparison/1_HR_96.png')
 imageC = imageA.copy()
 
 tempDiff = cv2.subtract(imageA,imageB)
